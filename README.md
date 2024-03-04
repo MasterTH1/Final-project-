@@ -8,11 +8,16 @@ Dice Roller Program
 • โครงสร้างของโปรแกรม (Class Diagram) 
 
 classDiagram
+
     class Dice {
+    
         -Random random
+        
         +Roll(): int
+        
     }
     class Program {
+    
         +Main(args: string[]): void
         +SaveToCSV(filePath: string, dices: Dice[]): void
     }
