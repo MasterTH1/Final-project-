@@ -9,15 +9,11 @@ Dice Roller Program
 
 classDiagram
 
-    class Dice {
-    
-        -Random random
-        
-        +Roll(): int
-        
+    class Dice {    
+        -Random random    
+        +Roll(): int       
     }
-    class Program {
-    
+    class Program {    
         +Main(args: string[]): void
         +SaveToCSV(filePath: string, dices: Dice[]): void
     }
