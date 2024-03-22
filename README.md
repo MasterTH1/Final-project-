@@ -10,18 +10,20 @@ Dice Roller Program
 
 
 
-    classDiagram
-    Program <|-- Dice Roller Program
+    ```mermaid
+     classDiagram
+     Program <|-- Dice Roller Program
 
     class Dice {    
-        -Random random    
-        +Roll(): int       
+    -Random random    
+    +Roll() int       
     }
     class Program {    
-        +Main(args: string[]): void
-        +SaveToCSV(filePath: string, dices: Dice[]): void
+    +Main(args: string[]) void
+    +SaveToCSV(filePath: string, dices: Dice[]) void
     }
     Dice ..> Program
+    ```
 
     
 
