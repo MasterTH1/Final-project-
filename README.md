@@ -27,18 +27,6 @@ Dice Roller Program
 
 
 
-    classDiagram
-    Program <|-- Dice
-    
-    Program : +Main()
-    class  Dice {
-        -Random random
-	+Roll(): int
-    }
-
-
-
-
 • ชื่อของผู้พัฒนาโปรแกรม
 นาย ทัตพงศ์ พงศ์สุวากร 663450039-7
     
