@@ -11,7 +11,7 @@ Dice Roller Program
 
 
     ```mermaid
-    classDiagram
+    classDiagram```
     Program <|-- Dice Roller Program
 
     class Dice {    
@@ -23,7 +23,7 @@ Dice Roller Program
         +SaveToCSV(filePath: string, dices: Dice[]): void
     }
     Dice ..> Program
-    ```
+    
 
 
 
