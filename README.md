@@ -7,7 +7,9 @@ Dice Roller Program
 
 • โครงสร้างของโปรแกรม (Class Diagram) 
 
+```mermaid
 classDiagram
+
     class Dice {    
         -Random random    
         +Roll(): int       
