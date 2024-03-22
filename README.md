@@ -7,6 +7,7 @@ Dice Roller Program
 
 • โครงสร้างของโปรแกรม (Class Diagram) 
 
+
 ```mermaid
 classDiagram
 
@@ -19,6 +20,7 @@ classDiagram
         +SaveToCSV(filePath: string, dices: Dice[]): void
     }
     Dice ..> Program
+
 
 
 
