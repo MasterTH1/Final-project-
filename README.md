@@ -10,6 +10,7 @@ Dice Roller Program
 
 ```mermaid
 classDiagram
+    Program <|-- HyperLightSpeedDrive
 
     class Dice {    
         -Random random    
