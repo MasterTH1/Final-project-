@@ -8,7 +8,6 @@ Dice Roller Program
 • โครงสร้างของโปรแกรม (Class Diagram) 
 
 classDiagram
-
     class Dice {    
         -Random random    
         +Roll(): int       
