@@ -10,8 +10,7 @@ Dice Roller Program
 
 
 
-    ```mermaid
-    ```classDiagram```
+    classDiagram
     Program <|-- Dice Roller Program
 
     class Dice {    
