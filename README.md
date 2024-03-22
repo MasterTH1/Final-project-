@@ -9,7 +9,7 @@ Dice Roller Program
 
 ```mermaid
      classDiagram
-     Program <|-- Dice Roller Program
+     Program --|> Dice Roller Program
 
     class Dice {    
     -Random random    
