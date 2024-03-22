@@ -8,6 +8,8 @@ Dice Roller Program
 • โครงสร้างของโปรแกรม (Class Diagram) 
 
 
+
+
 ```mermaid
 classDiagram
     Program <|-- HyperLightSpeedDrive
