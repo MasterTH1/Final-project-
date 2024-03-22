@@ -8,23 +8,21 @@ Dice Roller Program
 • โครงสร้างของโปรแกรม (Class Diagram) 
 
 
-
-
     ```mermaid
-    classDiagram```
+    classDiagram
     Program <|-- Dice Roller Program
 
     class Dice {    
-        -Random random    
-        +Roll(): int       
+    -Random random    
+    +Roll() int       
     }
     class Program {    
-        +Main(args: string[]): void
-        +SaveToCSV(filePath: string, dices: Dice[]): void
+    +Main(args: string[]) void
+    +SaveToCSV(filePath: string, dices: Dice[]) void
     }
     Dice ..> Program
+    ```
     
-
 
 
 
