@@ -27,6 +27,16 @@ Dice Roller Program
 
 
 
+    classDiagram
+    Program <|-- Dice
+    
+    Program : +Main()
+    class  Dice {
+        -Random random
+	+Roll(): int
+    }
+
+
 
 
 • ชื่อของผู้พัฒนาโปรแกรม
